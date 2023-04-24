@@ -1,0 +1,100 @@
+@use "vars" as *;
+
+.upper h2 {
+  background-color: $teal;
+  border: $orange solid 2px;
+  text-align: center;
+  max-width: 60%;
+
+  margin: 4.5rem auto 2rem auto;
+  padding: 0.5rem;
+  border-radius: 30px;
+}
+.accordion {
+  // background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+// .active,
+.accordion:hover {
+  background-color: $creme;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.contents p {
+  background-color: $teal;
+  border-radius: 20px;
+  border: $orange solid 2px;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+.git {
+  margin-top: 1.5rem;
+}
+.process {
+  background-color: $orange;
+  border-radius: 20px;
+  border: $teal solid 2px;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+.process img {
+  max-width: 80%;
+  border-radius: 20px;
+  border: $teal solid 2px;
+}
+
+.view-live {
+  background-color: $orange;
+  border-radius: 20px;
+  border: $teal solid 2px;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin-top: 0.75rem;
+  text-align: center;
+  max-width: 80%;
+  margin: 0.75rem auto;
+
+  a {
+    color: $creme;
+    font-size: 1.25rem;
+    font-family: "rubrik", sans-serif;
+  }
+}
+
+.reflection {
+  background-color: $teal;
+  border-radius: 20px;
+  border: $orange solid 2px;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .contents p {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  .process {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .process img {
+  }
+}

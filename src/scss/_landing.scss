@@ -1,0 +1,203 @@
+@use "vars" as *;
+
+body {
+  background-color: $green;
+  padding: 0;
+  margin: 0;
+}
+
+.logo img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 4rem;
+}
+
+.homan {
+  width: 100%;
+  padding-left: 4em;
+  white-space: nowrap;
+}
+
+.homan span {
+  font-family: "anybody" sans-serif;
+  position: relative;
+  top: 16.5rem;
+  font-weight: 900;
+  color: $orange;
+  font-size: 5em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: -10%;
+  animation: homan-animation 200s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes homan-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.tyler {
+  width: 100%;
+  padding-left: 4em;
+  white-space: nowrap;
+}
+
+.tyler span {
+  font-family: "anybody" sans-serif;
+  position: relative;
+  top: 15rem;
+  font-weight: 900;
+  color: $orange;
+  font-size: 5em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: -10%;
+  animation: tyler-animation 200s linear infinite;
+}
+
+@keyframes tyler-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.designdev {
+  width: 100%;
+  position: relative;
+  top: 22em;
+  padding-left: 4em;
+  margin: 0, auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.designdev span {
+  font-family: "anybody" sans-serif;
+  font-weight: 400;
+  color: $teal;
+  font-size: 2em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: -10%;
+  animation: designdev-animation 70s linear infinite;
+}
+
+@keyframes designdev-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@media (min-width: 500px) {
+  .logo img {
+    width: 40%;
+  }
+}
+@media (min-width: 700px) {
+  .logo img {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .homan {
+    width: 100%;
+    padding-left: 4em;
+    white-space: nowrap;
+  }
+
+  .homan span {
+    font-family: "anybody" sans-serif;
+    position: relative;
+    top: 12.5rem;
+    font-weight: 900;
+    color: $orange;
+    font-size: 20em;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    padding-left: -10%;
+    animation: homan-animation 700s linear infinite;
+  }
+
+  @keyframes homan-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+  .tyler {
+    width: 100%;
+    padding-left: 4em;
+    white-space: nowrap;
+  }
+
+  .tyler span {
+    font-family: "anybody" sans-serif;
+    position: relative;
+    top: 16.8rem;
+    font-weight: 900;
+    color: $orange;
+    font-size: 20em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: -10%;
+    animation: tyler-animation 700s linear infinite;
+  }
+
+  @keyframes tyler-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+  .designdev {
+    width: 100%;
+    position: fixed;
+    top: 32.8rem;
+    padding-left: 4em;
+    margin: 0, auto;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .designdev span {
+    font-family: "anybody" sans-serif;
+    font-weight: 400;
+    color: $teal;
+    font-size: 3em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: -10%;
+    animation: designdev-animation 70s linear infinite;
+  }
+
+  @keyframes designdev-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+}

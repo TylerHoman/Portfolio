@@ -1,0 +1,94 @@
+@use "vars" as *;
+
+.accordion-toggle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 80px;
+  cursor: pointer;
+  background: $orange;
+  margin: 0 auto;
+}
+
+.process-accordion {
+  border-radius: 20px;
+
+  p {
+    text-align: center;
+    margin: 1rem 2rem 0rem 2rem;
+    padding-bottom: 1rem;
+  }
+  button {
+    font-weight: bold;
+  }
+}
+.process {
+  .menu-accordion {
+    width: 100%;
+    background-color: $orange;
+    position: relative;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .menu-accordion.show-accordion {
+    width: 100%;
+    position: relative;
+    background-color: $teal;
+    border: solid $orange 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    display: none;
+  }
+}
+
+// Reflection Accordion
+
+.reflect-accordion-toggle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 80px;
+  cursor: pointer;
+  background: $teal;
+  margin: 0 auto;
+}
+
+.reflect-accordion {
+  // transition: height ease-in-out 0.5s;
+  // transition: height ease 0.4s;
+  // border-radius: 20px;
+
+  p {
+    text-align: center;
+    margin: 1rem 2rem 0rem 2rem;
+    padding-bottom: 1rem;
+  }
+  button {
+    font-weight: bold;
+  }
+  .menu-accordion-reflect {
+    overflow: hidden;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-size: 18px;
+    max-height: 100%;
+  }
+
+  .menu-accordion-reflect.show-accordion-reflect {
+    position: relative;
+    background-color: $red;
+    border: solid $teal 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    display: none;
+    max-height: 0px;
+  }
+}

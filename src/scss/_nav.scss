@@ -1,0 +1,138 @@
+@use "vars" as *;
+// .main-nav {
+//   position: relative;
+// }
+button {
+  cursor: pointer;
+  // background-color: $orange;
+  border: none;
+  font-size: 20px;
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav .toggle {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  padding: 0.5rem;
+  border-radius: 80px;
+  cursor: pointer;
+  background: $red;
+  border: solid $creme 2px;
+}
+
+.menu-nav {
+  // list-style: none;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  right: 0px;
+  bottom: 0px;
+  background-color: $red;
+  border: $creme solid 2px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  width: 0;
+  overflow: hidden;
+  max-width: 220px;
+  z-index: 9;
+  font-size: 18px;
+  transition: width ease-in-out 0.5s;
+  transition: width ease 0.4s;
+}
+
+.menu-nav.show-menu {
+  width: 100%;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  background: $red;
+  border: solid $creme 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 2.5rem;
+  padding-left: 1rem;
+  overflow: hidden;
+}
+
+.menu-nav.show-menu ul {
+  padding-right: 3rem;
+}
+
+.menu-nav li a,
+.menu-nav li span {
+  display: block;
+  padding: 0.5rem;
+  color: $creme;
+}
+
+li {
+  list-style: none;
+}
+
+@media (min-width: 900px) {
+  .menu-nav {
+    max-width: 100%;
+    position: absolute;
+    padding-left: 8rem;
+    margin: 0, auto;
+    columns: #fff;
+    font-family: "anybody", "Arial Narrow", Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 0.5em;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin-right: 0;
+
+    .landing {
+      a:hover {
+        color: $orange;
+      }
+    }
+    .works {
+      a:hover {
+        color: $teal;
+      }
+    }
+    .about {
+      a:hover {
+        color: $orange;
+      }
+    }
+  }
+
+  .menu-nav.show-menu {
+    background-color: transparent;
+    border: none;
+  }
+
+  .toggle {
+    display: none;
+  }
+  .menu-nav {
+    display: flex;
+    width: 300px;
+    display: absolute;
+    background-color: transparent;
+    color: $creme;
+    border: none;
+    top: 0;
+    bottom: auto;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  li {
+    list-style: none;
+  }
+}

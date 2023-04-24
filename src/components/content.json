@@ -1,0 +1,74 @@
+{
+  "about": {
+    "title": "About me",
+    "image1": "/images/tylerimage(1).png",
+    "contents": "Hi there! My name is Tyler and I am a web developer and designer based in Vancouver. I am passionate about creating visually appealing and user-friendly websites that deliver exceptional user experiences.I have strong skill sets in HTML, CSS, JavaScript, React as well as proficiencies in Adobe Illustrator, Photoshop, XD and Figma. I enjoy working with clients to understand their unique needs and creating customized solutions that meet and exceed their expectations. When I am not coding, you can find me exploring the beautiful outdoors of Vancouver or working on my art projects! If you are interested in seeing more of my art you can check out my art website (which I also designed/created) below :)"
+  },
+  "movie-database": {
+    "title": "Movie Database",
+    "images": [
+      "/images/movie-database1.png",
+      "/images/movie-database2.png",
+      "/images/movie-database3.png",
+      "/images/movie-database4.png"
+    ],
+    "contents": "For this project we designed and created a movie database using React. The movie database is a dynamic and user-friendly platform that allows movie enthusiasts to easily browse, search and discover new movies. The app was primarily designed by me, and plays with neon to provide a fun and modern interface that makes navigation easy. The app is connected to the IMBD API, where we grabbed Movie images, summaries and ratings. The app provides users with useful features like, the ability add movies to their favourites, and search capabilities.",
+    "processTitle": "The Process",
+    "processText": "The process for this project was a lot of fun. First I started by making a website mockup with Adobe XD. My team members and I finalized designs and got to work on development of the project. Below is the initial mockup of the site.",
+    "processImages": ["/images/movie-databasexdmockup.png"],
+    "reflectionTitle": "Reflections",
+    "reflectionText": "Over all the creation of this application went fairly smoothly. I learnt alot about developing with a group of people. We did have a few hiccups along the way, but in the end it just reinforced the benefits of having laid out plans vs just doing things as they come. I found developing this project in a group really helped solidify my react knowledge."
+  },
+  "capstone": {
+    "title": "Capstone",
+    "contents": "For this capstone project we were tasked to create a Wordpress/ Woocommerce web site from the ground up. The group who made this project consisted of me and 3 others who created Bon Vin a fictional wine store, and restaurant that offers a variety of products including wine, cheese, and curated wine packages.",
+    "images": [
+      "/images/capstone1.png",
+      "/images/capstone4.png",
+      "/images/capstone2.png",
+      "/images/capstone3.png"
+    ],
+    "processTitle": "Process",
+    "processText": "To make the website functional and visually appealing the team created a customized theme to fit the Bon Vin brand. By using Xd to create wireframes and site mock ups we carefully made a user friendly and visually appealing website that fit the theme of trendy upscale wine bar. Below are images of our Bon Vin style guide, and the high fidelity mock-up of the site.",
+    "processImages": [
+      "/images/capstonesStyleGuide.png",
+      "/images/capstoneHiMockUp.png",
+      "/images/capstoneHiMockUp2.png",
+      "/images/capstoneHiMockUp3.png"
+    ],
+    "processStyleGuide": "/images/capstoneStyleGuide.png",
+    "processxdlink": "https://xd.adobe.com/view/fff2a02c-2cab-41ce-9dc0-f983d7e83396-aaa1/",
+    "reflectionTitle": "Reflections",
+    "reflectionText": "Throughout this process I learned how powerful a tool Wordpress can be when used properly. This was the first time where I felt comfortable with Wordpress, using skills such as creating custom taxonomies, using and editing ACF fields and completely creating a new Wordpress theme from scratch. It was a nice ending to my time at BCIT showing a culmination of new skills learnt during my time in the FWD program  "
+  },
+  "hilogame": {
+    "title": "Hi-Lo Game!",
+    "images": [
+      "/images/hi-lo-main-page copy.png",
+      "/images/hi-lo-game-higher copy.png",
+      "/images/hi-lo-game-lower copy.png",
+      "/images/hi-lo-game-winner.png"
+    ],
+
+    "contents": "For this project we were tasked with creating a JavaScript game. I chose to create the Hi-Lo game. the game is very simple, each round a number is randomly generated and you have to try and guess it. Each guess the computer will tell you if you need to guess higher, or lower to guess the secret number. When you get the number you are congratulated and asked to play again.",
+    "processTitle": "Process",
+    "processText": "The process was rather difficult as I wasnt very very confident in using JavaScript yet, But it was a great learning experience that made me realize just how robust JavaScript is. There were also highlights to the process however as I really enjoyed designing the game. I went for a 60/70's themed design that turned a very simple game into something more exciting and dynamic. ",
+    "processImages": [],
+    "reflectionTitle": "Reflections",
+    "reflectionText": "This project was challenging and required a lot of effort, but ultimately it was incredibly fulfilling to see it come to fruition. This is one of my favorite projects, not because it was coded the best but because it allowed me to have fun while coding and it gave me an insight into creative coding. This project showed me that coding and design can go hand in hand. "
+  },
+
+  "icons": [
+    "/images/wordpressicon.png",
+    "/images/sassicon.png",
+    "/images/wooicon.png",
+    "/images/illustratoricon.png",
+    "/images/photoshopicon.png",
+    "/images/javascripticon.png",
+    "/images/htmlicon.png",
+    "/images/xdicon.png",
+    "/images/reacticon.png",
+    "/images/giticon.png",
+    "/images/THfavicon copy.png"
+  ]
+}
