@@ -1,12 +1,12 @@
-import Slider from "../components/Slider/slider";
+// import Slider from "../components/Slider/slider";
 
-function Single() {
-  return (
-    <p> saaaddd</p>
-    // <>
-    //   <Slider />
-    // </>
-  );
-}
+// function Single() {
+//   return (
+//     <p> saaaddd</p>
+//     // <>
+//     //   <Slider />
+//     // </>
+//   );
+// }
 
-export default Single;
+// export default Single;

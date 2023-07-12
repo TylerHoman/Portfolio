@@ -26,14 +26,10 @@ function HiLo() {
 
       <section className="process">
         <Accordion data={data} />
-        {/* <button className="accordion">{data.processTitle}</button>
-        <p className="panel">{data.processText}</p> */}
       </section>
 
       <section className="reflection">
         <AccordionReflect data={data} />
-        {/* <h3>{data.reflectionTitle}</h3>
-        <p>{data.reflectionText}</p> */}
       </section>
 
       <div className="git">

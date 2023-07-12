@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import BtnSlider from "../components/Slider/BtnSlider.js";
-// import dataSlider from "./dataSlider";
 import Content from "../components/content.json";
 import Slider from "../components/Slider/slider";
 import Accordion from "../components/accordion";
@@ -27,15 +26,10 @@ function MovieDatabase() {
 
       <section className="process">
         <Accordion data={data} />
-        {/* <h3>{data.processTitle}</h3>
-        <p>{data.processText}</p>
-        <img src={Content["movie-database"].processImages[0]} alt="Mock up!" /> */}
       </section>
 
       <section className="reflection">
         <AccordionReflect data={data} />
-        {/* <h3>{data.reflectionTitle}</h3>
-        <p>{data.reflectionText}</p> */}
       </section>
 
       <section className="view-live">

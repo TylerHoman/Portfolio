@@ -11,7 +11,6 @@ function PageWorks() {
       <section className="capstone-wrapper">
         <div className="capstone-title">
           <NavLink to="/capstone">
-            {/* CHANGE ALL OTHER OUTPUT TO THIS FORMAT */}
             <h2>{Content && Content["capstone"].title}</h2>
           </NavLink>
         </div>
