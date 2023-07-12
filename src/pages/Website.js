@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import BtnSlider from "../components/Slider/BtnSlider.js";
-// import dataSlider from "./dataSlider";
 import Content from "../components/content.json";
 import Slider from "../components/Slider/slider";
 import Accordion from "../components/accordion";
