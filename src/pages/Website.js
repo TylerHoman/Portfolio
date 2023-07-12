@@ -6,7 +6,7 @@ import Slider from "../components/Slider/slider";
 import Accordion from "../components/accordion";
 import AccordionReflect from "../components/accordionReflect.js";
 
-function MovieDatabase() {
+function WebSite() {
   const data = Content["movie-database"];
   return (
     <>
@@ -27,3 +27,5 @@ function MovieDatabase() {
     </>
   );
 }
+
+export default WebSite;
