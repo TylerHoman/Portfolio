@@ -4,6 +4,10 @@
     "image1": "/images/tylerimage(1).png",
     "contents": "Hi there! My name is Tyler and I am a web developer and designer based in Vancouver. I am passionate about creating visually appealing and user-friendly websites that deliver exceptional user experiences.I have strong skill sets in HTML, CSS, JavaScript, React as well as proficiencies in Adobe Illustrator, Photoshop, XD and Figma. I enjoy working with clients to understand their unique needs and creating customized solutions that meet and exceed their expectations. When I am not coding, you can find me exploring the beautiful outdoors of Vancouver or working on my art projects! If you are interested in seeing more of my art you can check out my art website (which I also designed/created) below :)"
   },
+  "website": {
+    "title": "Portfolio",
+    "images": [""]
+  },
   "movie-database": {
     "title": "Movie Database",
     "images": [
