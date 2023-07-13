@@ -6,7 +6,7 @@ import Accordion from "../components/accordion";
 import AccordionReflect from "../components/accordionReflect.js";
 
 function WebSite() {
-  const data = Content["movie-database"];
+  const data = Content["website"];
   return (
     <>
       <section className="upper">
@@ -22,6 +22,14 @@ function WebSite() {
         <div className="contents">
           <p>{data.contents}</p>
         </div>
+      </section>
+
+      <section className="process">
+        <Accordion data={data} />
+      </section>
+
+      <section className="reflection">
+        <AccordionReflect data={data} />
       </section>
     </>
   );

@@ -6,7 +6,9 @@
   },
   "website": {
     "title": "Portfolio",
-    "images": [""]
+    "images": [""],
+    "processImages": ["/images/tylerimage(1).png"],
+    "contents": "For my portfolio I wanted to focus on..."
   },
   "movie-database": {
     "title": "Movie Database",

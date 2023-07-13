@@ -8,6 +8,27 @@ function PageWorks() {
       <div className="logo">
         {Content && <img src={Content.icons[10]} alt="favicon" />}
       </div>
+
+      <section className="website-wrapper">
+        <div className="website-title">
+          <NavLink to="/website">
+            <h2>{Content && Content["website"].title}</h2>
+          </NavLink>
+        </div>
+        <div className="website-image">
+          <NavLink to="/website">
+            {Content && (
+              <img src={Content["capstone"].images[0]} alt="WebSite" />
+            )}
+          </NavLink>
+        </div>
+      </section>
+      <div className="work-icons-website">
+        {Content && <img src={Content.icons[0]} alt="wordpress" />}
+        {Content && <img src={Content.icons[1]} alt="sass" />}
+        {Content && <img src={Content.icons[2]} alt="woo" />}
+      </div>
+
       <section className="capstone-wrapper">
         <div className="capstone-title">
           <NavLink to="/capstone">

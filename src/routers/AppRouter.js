@@ -8,6 +8,7 @@ import "../scss/styles.scss";
 import Capstone from "../pages/Capstone";
 import HiLo from "../pages/HiLo";
 import MovieDatabase from "../pages/MovieDatabase";
+import WebSite from "../pages/Website";
 
 function AppRouter() {
   return (
@@ -24,6 +25,7 @@ function AppRouter() {
             <Route path="/capstone" element={<Capstone />} />
             <Route path="/hilo" element={<HiLo />} />
             <Route path="/movie-database" element={<MovieDatabase />} />
+            <Route path="/website" element={<WebSite />} />
           </Routes>
         </main>
       </div>
