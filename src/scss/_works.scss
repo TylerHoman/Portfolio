@@ -55,6 +55,10 @@
   display: flex;
   justify-content: center;
 }
+
+.capstone-title {
+  margin-top: 2rem;
+}
 .capstone-title h2 {
   background-color: $teal;
   color: $creme;
@@ -156,7 +160,7 @@
 }
 
 .hi-lo-title {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .hi-lo-title h2 {
@@ -284,6 +288,9 @@
     flex-wrap: wrap;
     align-content: flex-end;
     align-items: center;
+  }
+  .capstone-title {
+    margin-top: 6rem;
   }
 
   .work-icons-capstone img {
@@ -441,10 +448,21 @@
 }
 
 @media (min-width: 1500px) {
-  .capstone-image:hover {
-    padding-right: 17rem;
-    transition-duration: 0.7s;
+  // .capstone-image:hover {
+  //   padding-right: 17rem;
+  //   transition-duration: 0.7s;
+  // }
+  .website-image img {
+    width: 950px;
+    height: auto;
+    border-radius: 20px;
   }
+  .website-image {
+    padding-right: 13rem;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 350px;
+  }
+
   .capstone-image img {
     width: 950px;
     height: auto;
@@ -456,10 +474,10 @@
     border-bottom-left-radius: 350px;
   }
 
-  .movie-database-image:hover {
-    padding-left: 17rem;
-    transition-duration: 0.7s;
-  }
+  // .movie-database-image:hover {
+  //   padding-left: 17rem;
+  //   transition-duration: 0.7s;
+  // }
   .movie-database-image img {
     width: 950px;
     height: auto;
@@ -471,10 +489,10 @@
     border-bottom-right-radius: 350px;
   }
 
-  .hi-lo-image:hover {
-    padding-right: 17rem;
-    transition-duration: 0.7s;
-  }
+  // .hi-lo-image:hover {
+  //   padding-right: 17rem;
+  //   transition-duration: 0.7s;
+  // }
   .hi-lo-image img {
     width: 950px;
     height: auto;

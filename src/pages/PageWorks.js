@@ -8,6 +8,9 @@ function PageWorks() {
       <div className="logo">
         {Content && <img src={Content.icons[10]} alt="favicon" />}
       </div>
+      <section className="works-title">
+        <h2>WORKS</h2>
+      </section>
 
       <section className="website-wrapper">
         <div className="website-title">
