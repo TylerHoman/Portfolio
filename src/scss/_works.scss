@@ -1,15 +1,29 @@
 @use "vars" as *;
 
-.page-works-wrapper {
-  margin-top: 2rem;
+.worksSpanLarge {
+  white-space: nowrap;
+  width: 100%;
 }
-.works-title {
-  font-family: "rubrik", sans-serif;
-  font-size: 4rem;
-  font-style: italic;
+.worksSpanLarge span {
+  // margin-top: 4rem;
   display: inline-block;
-  color: $creme;
-  width: 100vw;
+  color: $orange;
+  font-size: 5rem;
+  text-decoration: underline $teal;
+  font-family: "rubik", sans-serif;
+  animation: worksSpanLarge-animation 250s linear infinite;
+  overflow: hidden;
+}
+.worksSpanLarge span:hover {
+  animation-play-state: paused;
+}
+@keyframes worksSpanLarge-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
 
 .website-title h2 {
@@ -223,6 +237,9 @@
 }
 
 @media (min-width: 900px) {
+  .page-works-wrapper {
+    margin-top: 4rem;
+  }
   .website-image img {
     width: 600px;
     height: auto;

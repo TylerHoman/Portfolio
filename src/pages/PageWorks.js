@@ -8,12 +8,18 @@ function PageWorks() {
       <div className="logo">
         {Content && <img src={Content.icons[10]} alt="favicon" />}
       </div>
-      <section className="works-title">
-        <marquee scrollamount="1" direction="right">
+      <div className="worksSpanLarge">
+        <span>
           WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS.
           WORKS. WORKS.
-        </marquee>
-      </section>
+        </span>
+      </div>
+      {/* <div className="worksSpanSmall">
+        <span>
+          WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS.
+          WORKS. WORKS.
+        </span>
+      </div> */}
 
       <section className="website-wrapper">
         <div className="website-title">
