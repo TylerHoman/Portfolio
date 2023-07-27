@@ -1,10 +1,8 @@
 @use "vars" as *;
-// .main-nav {
-//   position: relative;
-// }
+
 button {
   cursor: pointer;
-  // background-color: $orange;
+
   border: none;
   font-size: 20px;
   z-index: 11;
@@ -25,7 +23,6 @@ button {
 }
 
 .menu-nav {
-  // list-style: none;
   display: flex;
   position: fixed;
   justify-content: space-between;

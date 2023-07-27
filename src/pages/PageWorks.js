@@ -9,7 +9,10 @@ function PageWorks() {
         {Content && <img src={Content.icons[10]} alt="favicon" />}
       </div>
       <section className="works-title">
-        <h2>WORKS</h2>
+        <marquee scrollamount="1" direction="right">
+          WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS.
+          WORKS. WORKS.
+        </marquee>
       </section>
 
       <section className="website-wrapper">
