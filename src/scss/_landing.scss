@@ -20,29 +20,6 @@ body {
   white-space: nowrap;
 }
 
-.homan span {
-  font-family: "rubik", sans-serif;
-  position: relative;
-  top: 16.5rem;
-  font-weight: 900;
-  color: $orange;
-  font-size: 5em;
-  text-transform: uppercase;
-  display: inline-block;
-  padding-left: -10%;
-  animation: homan-animation 200s linear infinite;
-  overflow: hidden;
-}
-
-@keyframes homan-animation {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
-}
-
 .tyler {
   width: 100%;
   padding-left: 4em;
@@ -74,7 +51,7 @@ body {
 .designdev {
   width: 100%;
   position: relative;
-  top: 22em;
+  top: 23em;
   padding-left: 4em;
   margin: 0, auto;
   white-space: nowrap;
@@ -93,6 +70,29 @@ body {
 }
 
 @keyframes designdev-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.homan span {
+  font-family: "rubik", sans-serif;
+  position: relative;
+  top: 16.5rem;
+  font-weight: 900;
+  color: $orange;
+  font-size: 5em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: -10%;
+  animation: homan-animation 200s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes homan-animation {
   0% {
     transform: translate(0, 0);
   }
@@ -178,7 +178,7 @@ body {
 
   .homan span {
     position: fixed;
-    top: 35rem;
+    top: 34rem;
     font-weight: 900;
     color: $orange;
     font-size: 10em;

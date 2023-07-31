@@ -6,9 +6,13 @@
   },
   "website": {
     "title": "Portfolio",
-    "images": [],
+    "images": [
+      "/images/website1.png",
+      "/images/website2.png",
+      "/images/website3.png"
+    ],
     "processTitle": "The Process",
-    "processText": "CHANGE THIS PLEASE.",
+    "processText": "These were the origional hi fedelity mock ups made on Adobe XD. I have since made quite a few changes to the design, but it's always nice to reflect on where the design came from.",
     "processImages": [
       "/images/portfolioPlan1.png",
       "/images/portfolioPlan2.png"

@@ -30,7 +30,7 @@ function PageWorks() {
         <div className="website-image">
           <NavLink to="/website">
             {Content && (
-              <img src={Content["capstone"].images[0]} alt="WebSite" />
+              <img src={Content["website"].images[0]} alt="WebSite" />
             )}
           </NavLink>
         </div>
