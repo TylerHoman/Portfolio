@@ -14,9 +14,9 @@
   animation: worksSpanLarge-animation 250s linear infinite;
   overflow: hidden;
 }
-.worksSpanLarge span:hover {
-  animation-play-state: paused;
-}
+// .worksSpanLarge span:hover {
+//   animation-play-state: paused;
+// }
 @keyframes worksSpanLarge-animation {
   0% {
     transform: translate(0, 0);

@@ -6,10 +6,13 @@
   },
   "website": {
     "title": "Portfolio",
-    "images": [""],
+    "images": [],
     "processTitle": "The Process",
     "processText": "CHANGE THIS PLEASE.",
-    "processImages": ["/images/tylerimage(1).png"],
+    "processImages": [
+      "/images/portfolioPlan1.png",
+      "/images/portfolioPlan2.png"
+    ],
     "reflectionTitle": "Reflections",
     "reflectionText": "Change this please as well",
     "contents": "For my portfolio I wanted to focus on..."

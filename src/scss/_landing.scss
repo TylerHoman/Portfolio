@@ -114,35 +114,6 @@ body {
     left: 10px;
   }
 
-  .homan {
-    width: 100%;
-    padding-left: 4em;
-    white-space: nowrap;
-  }
-
-  .homan span {
-    font-family: "anybody" sans-serif;
-    position: relative;
-    top: 12.5rem;
-    font-weight: 900;
-    color: $orange;
-    font-size: 20em;
-    text-transform: uppercase;
-    display: inline-block;
-    overflow: hidden;
-    padding-left: -10%;
-    animation: homan-animation 700s linear infinite;
-  }
-
-  @keyframes homan-animation {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(-100%, 0);
-    }
-  }
-
   .tyler {
     width: 100%;
     padding-left: 4em;
@@ -150,16 +121,15 @@ body {
   }
 
   .tyler span {
-    font-family: "anybody" sans-serif;
-    position: relative;
-    top: 16.8rem;
+    position: fixed;
+    top: 16rem;
     font-weight: 900;
     color: $orange;
-    font-size: 20em;
+    font-size: 10em;
     text-transform: uppercase;
     display: inline-block;
     padding-left: -10%;
-    animation: tyler-animation 700s linear infinite;
+    animation: tyler-animation 450s linear infinite;
   }
 
   @keyframes tyler-animation {
@@ -174,7 +144,7 @@ body {
   .designdev {
     width: 100%;
     position: fixed;
-    top: 32.8rem;
+    top: 31.5rem;
     padding-left: 4em;
     margin: 0, auto;
     white-space: nowrap;
@@ -182,14 +152,13 @@ body {
   }
 
   .designdev span {
-    font-family: "anybody" sans-serif;
     font-weight: 400;
     color: $teal;
     font-size: 3em;
     text-transform: uppercase;
     display: inline-block;
     padding-left: -10%;
-    animation: designdev-animation 70s linear infinite;
+    animation: designdev-animation 250s linear infinite;
   }
 
   @keyframes designdev-animation {
@@ -199,5 +168,45 @@ body {
     100% {
       transform: translate(-100%, 0);
     }
+  }
+
+  .homan {
+    width: 100%;
+    padding-left: 4em;
+    white-space: nowrap;
+  }
+
+  .homan span {
+    position: fixed;
+    top: 35rem;
+    font-weight: 900;
+    color: $orange;
+    font-size: 10em;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    padding-left: -10%;
+    animation: homan-animation 450s linear infinite;
+  }
+
+  @keyframes homan-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .tyler span {
+    font-size: 15rem;
+  }
+  .designdev span {
+    font-size: 4rem;
+  }
+  .homan span {
+    font-size: 15rem;
   }
 }
