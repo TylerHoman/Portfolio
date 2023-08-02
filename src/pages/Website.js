@@ -31,6 +31,16 @@ function WebSite() {
       <section className="reflection">
         <AccordionReflect data={data} />
       </section>
+
+      <div className="git">
+        <a
+          href="https://github.com/TylerHoman"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {Content && <img src={Content.icons[9]} alt="JavaScript" />}
+        </a>
+      </div>
     </>
   );
 }
