@@ -1,3 +1,4 @@
+@use "vars" as *;
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@400;900&family=Bebas+Neue&family=Open+Sans:wght@400;700&family=Rubik:ital,wght@1,900&display=swap");
 // rubrik
 @import url("https://use.typekit.net/ywm3icz.css");
@@ -5,4 +6,10 @@
 h2 {
   font-family: "poppins", sans-serif;
   font-weight: 500;
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: $creme;
 }

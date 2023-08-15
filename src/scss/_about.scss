@@ -1,4 +1,29 @@
 @use "vars" as *;
+
+.about-span-large {
+  white-space: nowrap;
+  width: 100%;
+}
+.about-span-large span {
+  // margin-top: 4rem;
+  display: inline-block;
+  color: $orange;
+  font-size: 5rem;
+  text-decoration: underline $teal;
+  font-family: "rubik", sans-serif;
+  animation: about-span-large-animation 250s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes about-span-large-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
 .about-wrapper {
   font-family: "anybody" sans-serif;
   font-weight: 700;
@@ -10,13 +35,14 @@
   margin: 0 auto;
   position: relative;
   top: 1rem;
+  padding-bottom: 1rem;
 }
 .about-image {
   margin-top: 2rem;
 }
 .about-image img {
   display: block;
-  background-color: $teal;
+  background-color: $red;
   border: $orange solid 2px;
   width: 50vw;
   margin: 0 auto;
@@ -25,18 +51,18 @@
 }
 
 .about-content {
+  font-family: "arial", sans-serif;
   background-color: $orange;
   border-radius: 20px;
   border: $teal solid 2px;
   padding: 0.25rem 1rem 0.25rem 1rem;
   margin-top: 0.75rem;
-  text-align: center;
+  text-align: left;
 }
 
 .art-website {
   background-color: $teal;
   border: $orange solid 2px;
-
   border-radius: 30px;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -48,24 +74,33 @@
   color: $creme;
   text-decoration: none;
 }
-@media (min-width: 700px) {
+
+@media (min-width: 900px) {
+  .about-wrapper {
+    margin-top: 4rem;
+  }
   .logo-about img {
     width: 50px;
     position: absolute;
     top: 10px;
     left: 10px;
   }
-}
 
-@media (min-width: 900px) {
   .about-image img {
-    width: 30%;
+    width: 35%;
+
+    margin: 0 auto;
+    justify-items: end;
   }
 
   .about-content {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 2rem;
+  }
+  .about-content h2 {
+    text-align: center;
+    text-decoration: underline 5px $creme;
   }
 
   .art-website {

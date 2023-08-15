@@ -1,7 +1,8 @@
 {
   "about": {
     "title": "About me",
-    "image1": "/images/tylerimage(1).png",
+    "image1": "/images/tylerhoman.png",
+    "contentTitle": "About Me",
     "contents": "Hi there! My name is Tyler and I am a web developer and designer based in Vancouver. I am passionate about creating visually appealing and user-friendly websites that deliver exceptional user experiences.I have strong skill sets in HTML, CSS, JavaScript, React as well as proficiencies in Adobe Illustrator, Photoshop, XD and Figma. I enjoy working with clients to understand their unique needs and creating customized solutions that meet and exceed their expectations. When I am not coding, you can find me exploring the beautiful outdoors of Vancouver or working on my art projects! If you are interested in seeing more of my art you can check out my art website (which I designed but used cargo to create) below :)"
   },
   "website": {
@@ -12,14 +13,16 @@
       "/images/website3.png"
     ],
     "processTitle": "The Process",
-    "processText": "These were the origional hi fedelity mock ups made on Adobe XD. I have since made quite a few changes to the design, but it's always nice to reflect on where the design came from.",
+    "processText": "These were the original wire frames, and hi-fedelity mock ups made on Adobe XD. I have since made quite a few changes to the design, but it's always nice to reflect on where the design came from.",
     "processImages": [
+      "/images/portfolioPlanWire.png",
       "/images/portfolioPlan1.png",
       "/images/portfolioPlan2.png"
     ],
     "reflectionTitle": "Reflections",
     "reflectionText": "Change this please as well",
-    "contents": "For my portfolio I wanted to focus on..."
+    "overview": "Overview",
+    "contents": "For my portfolio I wanted to focus on having fun with the design. With a fun and bold colour palette my portfolio shows just that along with my technical knowhow. Crafted using React, it seamlessly combines aesthetics with functionality, ensuring a dynamic and user-friendly experience. Behind the scenes, a JSON file holds and organizes all the data, allowing for effortless updates and modifications. This streamlined approach reflects my commitment to efficiency and attention to detail. Hosted on SiteGround, the portfolio boasts reliability as pages load swiftly."
   },
   "movie-database": {
     "title": "Movie Database",

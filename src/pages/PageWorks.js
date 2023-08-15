@@ -14,12 +14,6 @@ function PageWorks() {
           WORKS. WORKS.
         </span>
       </div>
-      {/* <div className="worksSpanSmall">
-        <span>
-          WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS. WORKS.
-          WORKS. WORKS.
-        </span>
-      </div> */}
 
       <section className="website-wrapper">
         <div className="website-title">
