@@ -13,16 +13,16 @@
       "/images/website3.png"
     ],
     "processTitle": "The Process",
-    "processText": "These were the original wire frames, and hi-fedelity mock ups made on Adobe XD. I have since made quite a few changes to the design, but it's always nice to reflect on where the design came from.",
+    "processText": "These were the original wire frames, and hi-fedelity mock ups made on Adobe XD. I have since made quite a few changes to the design, but having a strong foundation of where to start is of the utmost importance, and is important to my design process.",
     "processImages": [
       "/images/portfolioPlanWire.png",
       "/images/portfolioPlan1.png",
       "/images/portfolioPlan2.png"
     ],
     "reflectionTitle": "Reflections",
-    "reflectionText": "Change this please as well",
+    "reflectionText": "My portfolio's evolution reflects my journey – from layout experiments to mastering React's facets, and embracing vibrant colors for added flair. It's not just a display, but a showcase of my adaptability, learning, and the pure fun I've had. Each click unravels my passion and progress.",
     "overview": "Overview",
-    "contents": "For my portfolio I wanted to focus on having fun with the design. With a fun and bold colour palette my portfolio shows just that along with my technical knowhow. Crafted using React, it seamlessly combines aesthetics with functionality, ensuring a dynamic and user-friendly experience. Behind the scenes, a JSON file holds and organizes all the data, allowing for effortless updates and modifications. This streamlined approach reflects my commitment to efficiency and attention to detail. Hosted on SiteGround, the portfolio boasts reliability as pages load swiftly."
+    "contents": "For my portfolio I wanted to focus on having fun with the design. With a fun and bold colour palette my portfolio shows just that. Crafted using React, it seamlessly combines aesthetics with functionality, ensuring a dynamic and user-friendly experience. Behind the scenes, a JSON file holds and organizes all the data, allowing for effortless updates and modifications. This streamlined approach reflects my commitment to efficiency and attention to detail. Hosted on SiteGround, the portfolio boasts reliability as pages load swiftly."
   },
   "movie-database": {
     "title": "Movie Database",
@@ -32,6 +32,7 @@
       "/images/movie-database3.png",
       "/images/movie-database4.png"
     ],
+    "overview": "Overview",
     "contents": "For this project we designed and created a movie database using React. The movie database is a dynamic and user-friendly platform that allows movie enthusiasts to easily browse, search and discover new movies. The app was primarily designed by me, and plays with neon to provide a fun and modern interface that makes navigation easy. The app is connected to the IMBD API, where we grabbed Movie images, summaries and ratings. The app provides users with useful features like, the ability add movies to their favourites, and search capabilities.",
     "processTitle": "The Process",
     "processText": "The process for this project was a lot of fun. First I started by making a website mockup with Adobe XD. My team members and I finalized designs and got to work on development of the project. Below is the initial mockup of the site.",
@@ -41,6 +42,7 @@
   },
   "capstone": {
     "title": "Capstone",
+    "overview": "Overview",
     "contents": "For this capstone project we were tasked to create a Wordpress/ Woocommerce web site from the ground up. The group who made this project consisted of me and 3 others who created Bon Vin a fictional wine store, and restaurant that offers a variety of products including wine, cheese, and curated wine packages.",
     "images": [
       "/images/capstone1.png",
@@ -69,7 +71,7 @@
       "/images/hi-lo-game-lower copy.png",
       "/images/hi-lo-game-winner.png"
     ],
-
+    "overview": "Overview",
     "contents": "For this project we were tasked with creating a JavaScript game. I chose to create the Hi-Lo game. the game is very simple, each round a number is randomly generated and you have to try and guess it. Each guess the computer will tell you if you need to guess higher, or lower to guess the secret number. When you get the number you are congratulated and asked to play again.",
     "processTitle": "Process",
     "processText": "The process was rather difficult as I wasnt very very confident in using JavaScript yet, But it was a great learning experience that made me realize just how robust JavaScript is. There were also highlights to the process however as I really enjoyed designing the game. I went for a 60/70's themed design that turned a very simple game into something more exciting and dynamic. ",

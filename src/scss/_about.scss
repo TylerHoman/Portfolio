@@ -75,6 +75,11 @@
   text-decoration: none;
 }
 
+.about-content h2 {
+  text-align: center;
+  text-decoration: underline 5px $creme;
+}
+
 @media (min-width: 900px) {
   .about-wrapper {
     margin-top: 4rem;
@@ -97,10 +102,6 @@
     width: 50%;
     margin: 0 auto;
     margin-top: 2rem;
-  }
-  .about-content h2 {
-    text-align: center;
-    text-decoration: underline 5px $creme;
   }
 
   .art-website {

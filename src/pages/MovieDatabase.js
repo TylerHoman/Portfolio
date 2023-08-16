@@ -20,6 +20,7 @@ function MovieDatabase() {
         </div>
 
         <div className="contents">
+          <h3>{data.overview}</h3>
           <p>{data.contents}</p>
         </div>
       </section>

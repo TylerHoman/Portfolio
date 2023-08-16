@@ -10,6 +10,7 @@
   padding: 0.5rem;
   border-radius: 30px;
 }
+
 .accordion {
   // background-color: #eee;
   color: #444;
@@ -31,6 +32,10 @@
   background-color: white;
   display: none;
   overflow: hidden;
+}
+.contents h3 {
+  text-align: center;
+  text-decoration: underline 4px $creme;
 }
 .contents p {
   background-color: $teal;
