@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Content from "../components/content.json";
 
 function PageWorks() {
@@ -30,9 +30,9 @@ function PageWorks() {
         </div>
       </section>
       <div className="work-icons-website">
-        {Content && <img src={Content.icons[0]} alt="wordpress" />}
+        {Content && <img src={Content.icons[8]} alt="wordpress" />}
         {Content && <img src={Content.icons[1]} alt="sass" />}
-        {Content && <img src={Content.icons[2]} alt="woo" />}
+        {Content && <img src={Content.icons[7]} alt="woo" />}
       </div>
 
       <section className="capstone-wrapper">
